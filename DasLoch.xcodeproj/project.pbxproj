@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		296186B7217368890028399B /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296186B6217368890028399B /* Dice.swift */; };
+		299583B8217364DF00860BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299583B7217364DF00860BEC /* AppDelegate.swift */; };
+		299583BA217364DF00860BEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299583B9217364DF00860BEC /* ViewController.swift */; };
+		299583BD217364DF00860BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299583BB217364DF00860BEC /* Main.storyboard */; };
+		299583BF217364E100860BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299583BE217364E100860BEC /* Assets.xcassets */; };
+		299583C2217364E100860BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299583C0217364E100860BEC /* LaunchScreen.storyboard */; };
+		299583CD217364E100860BEC /* DasLochTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299583CC217364E100860BEC /* DasLochTests.swift */; };
+		299583D8217364E100860BEC /* DasLochUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299583D7217364E100860BEC /* DasLochUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		299583C9217364E100860BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 299583AC217364DF00860BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299583B3217364DF00860BEC;
+			remoteInfo = DasLoch;
+		};
+		299583D4217364E100860BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 299583AC217364DF00860BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299583B3217364DF00860BEC;
+			remoteInfo = DasLoch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		296186B6217368890028399B /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		299583B4217364DF00860BEC /* DasLoch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DasLoch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		299583B7217364DF00860BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		299583B9217364DF00860BEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		299583BC217364DF00860BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		299583BE217364E100860BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299583C1217364E100860BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		299583C3217364E100860BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299583C8217364E100860BEC /* DasLochTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DasLochTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		299583CC217364E100860BEC /* DasLochTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasLochTests.swift; sourceTree = "<group>"; };
+		299583CE217364E100860BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299583D3217364E100860BEC /* DasLochUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DasLochUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		299583D7217364E100860BEC /* DasLochUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasLochUITests.swift; sourceTree = "<group>"; };
+		299583D9217364E100860BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		299583B1217364DF00860BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299583C5217364E100860BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299583D0217364E100860BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296186B3217368510028399B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				296186B6217368890028399B /* Dice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		296186B4217368580028399B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		296186B5217368600028399B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		299583AB217364DF00860BEC = {
+			isa = PBXGroup;
+			children = (
+				299583B6217364DF00860BEC /* DasLoch */,
+				299583CB217364E100860BEC /* DasLochTests */,
+				299583D6217364E100860BEC /* DasLochUITests */,
+				299583B5217364DF00860BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		299583B5217364DF00860BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				299583B4217364DF00860BEC /* DasLoch.app */,
+				299583C8217364E100860BEC /* DasLochTests.xctest */,
+				299583D3217364E100860BEC /* DasLochUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		299583B6217364DF00860BEC /* DasLoch */ = {
+			isa = PBXGroup;
+			children = (
+				296186B5217368600028399B /* Controller */,
+				296186B4217368580028399B /* View */,
+				296186B3217368510028399B /* Model */,
+				299583B7217364DF00860BEC /* AppDelegate.swift */,
+				299583B9217364DF00860BEC /* ViewController.swift */,
+				299583BB217364DF00860BEC /* Main.storyboard */,
+				299583BE217364E100860BEC /* Assets.xcassets */,
+				299583C0217364E100860BEC /* LaunchScreen.storyboard */,
+				299583C3217364E100860BEC /* Info.plist */,
+			);
+			path = DasLoch;
+			sourceTree = "<group>";
+		};
+		299583CB217364E100860BEC /* DasLochTests */ = {
+			isa = PBXGroup;
+			children = (
+				299583CC217364E100860BEC /* DasLochTests.swift */,
+				299583CE217364E100860BEC /* Info.plist */,
+			);
+			path = DasLochTests;
+			sourceTree = "<group>";
+		};
+		299583D6217364E100860BEC /* DasLochUITests */ = {
+			isa = PBXGroup;
+			children = (
+				299583D7217364E100860BEC /* DasLochUITests.swift */,
+				299583D9217364E100860BEC /* Info.plist */,
+			);
+			path = DasLochUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		299583B3217364DF00860BEC /* DasLoch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299583DC217364E100860BEC /* Build configuration list for PBXNativeTarget "DasLoch" */;
+			buildPhases = (
+				299583B0217364DF00860BEC /* Sources */,
+				299583B1217364DF00860BEC /* Frameworks */,
+				299583B2217364DF00860BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DasLoch;
+			productName = DasLoch;
+			productReference = 299583B4217364DF00860BEC /* DasLoch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		299583C7217364E100860BEC /* DasLochTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299583DF217364E100860BEC /* Build configuration list for PBXNativeTarget "DasLochTests" */;
+			buildPhases = (
+				299583C4217364E100860BEC /* Sources */,
+				299583C5217364E100860BEC /* Frameworks */,
+				299583C6217364E100860BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				299583CA217364E100860BEC /* PBXTargetDependency */,
+			);
+			name = DasLochTests;
+			productName = DasLochTests;
+			productReference = 299583C8217364E100860BEC /* DasLochTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		299583D2217364E100860BEC /* DasLochUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299583E2217364E100860BEC /* Build configuration list for PBXNativeTarget "DasLochUITests" */;
+			buildPhases = (
+				299583CF217364E100860BEC /* Sources */,
+				299583D0217364E100860BEC /* Frameworks */,
+				299583D1217364E100860BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				299583D5217364E100860BEC /* PBXTargetDependency */,
+			);
+			name = DasLochUITests;
+			productName = DasLochUITests;
+			productReference = 299583D3217364E100860BEC /* DasLochUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		299583AC217364DF00860BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dietrich Lueerssen";
+				TargetAttributes = {
+					299583B3217364DF00860BEC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					299583C7217364E100860BEC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 299583B3217364DF00860BEC;
+					};
+					299583D2217364E100860BEC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 299583B3217364DF00860BEC;
+					};
+				};
+			};
+			buildConfigurationList = 299583AF217364DF00860BEC /* Build configuration list for PBXProject "DasLoch" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 299583AB217364DF00860BEC;
+			productRefGroup = 299583B5217364DF00860BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				299583B3217364DF00860BEC /* DasLoch */,
+				299583C7217364E100860BEC /* DasLochTests */,
+				299583D2217364E100860BEC /* DasLochUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299583B2217364DF00860BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299583C2217364E100860BEC /* LaunchScreen.storyboard in Resources */,
+				299583BF217364E100860BEC /* Assets.xcassets in Resources */,
+				299583BD217364DF00860BEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299583C6217364E100860BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299583D1217364E100860BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299583B0217364DF00860BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299583BA217364DF00860BEC /* ViewController.swift in Sources */,
+				296186B7217368890028399B /* Dice.swift in Sources */,
+				299583B8217364DF00860BEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299583C4217364E100860BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299583CD217364E100860BEC /* DasLochTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299583CF217364E100860BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299583D8217364E100860BEC /* DasLochUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		299583CA217364E100860BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 299583B3217364DF00860BEC /* DasLoch */;
+			targetProxy = 299583C9217364E100860BEC /* PBXContainerItemProxy */;
+		};
+		299583D5217364E100860BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 299583B3217364DF00860BEC /* DasLoch */;
+			targetProxy = 299583D4217364E100860BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		299583BB217364DF00860BEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299583BC217364DF00860BEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		299583C0217364E100860BEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299583C1217364E100860BEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		299583DA217364E100860BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		299583DB217364E100860BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		299583DD217364E100860BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26535T37FE;
+				INFOPLIST_FILE = DasLoch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DLueerssen.DasLoch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		299583DE217364E100860BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26535T37FE;
+				INFOPLIST_FILE = DasLoch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DLueerssen.DasLoch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		299583E0217364E100860BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DasLochTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DLueerssen.DasLochTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DasLoch.app/DasLoch";
+			};
+			name = Debug;
+		};
+		299583E1217364E100860BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DasLochTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DLueerssen.DasLochTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DasLoch.app/DasLoch";
+			};
+			name = Release;
+		};
+		299583E3217364E100860BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DasLochUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DLueerssen.DasLochUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DasLoch;
+			};
+			name = Debug;
+		};
+		299583E4217364E100860BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DasLochUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DLueerssen.DasLochUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DasLoch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		299583AF217364DF00860BEC /* Build configuration list for PBXProject "DasLoch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299583DA217364E100860BEC /* Debug */,
+				299583DB217364E100860BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299583DC217364E100860BEC /* Build configuration list for PBXNativeTarget "DasLoch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299583DD217364E100860BEC /* Debug */,
+				299583DE217364E100860BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299583DF217364E100860BEC /* Build configuration list for PBXNativeTarget "DasLochTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299583E0217364E100860BEC /* Debug */,
+				299583E1217364E100860BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299583E2217364E100860BEC /* Build configuration list for PBXNativeTarget "DasLochUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299583E3217364E100860BEC /* Debug */,
+				299583E4217364E100860BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 299583AC217364DF00860BEC /* Project object */;
+}
